@@ -49,9 +49,9 @@ function markCell(e) {
     : (message.innerText = p1.value + ", you're up");
 
   if (checkSolution(p1Cells))
-    message.innerText = p1.value + ", congratulations you won!";
+    message.innerText = p1.value + " congratulations you won!";
   else if (checkSolution(p2Cells))
-    message.innerText = p2.value + ", congratulations you won!";
+    message.innerText = p2.value + " congratulations you won!";
 
   // console.log(p1Cells, p2Cells);
 }
