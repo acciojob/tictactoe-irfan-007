@@ -1,8 +1,8 @@
 //your JS code here. If required.
 let submit = document.getElementById("submit");
-let p1 = document.getElementById("player-1");
+let p1 = document.getElementById("player1");
 let p1Cells = [];
-let p2 = document.getElementById("player-2");
+let p2 = document.getElementById("player2");
 let p2Cells = [];
 let form = document.querySelector("form");
 let grid = document.querySelector(".grid");
