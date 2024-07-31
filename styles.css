@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button,
+input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 0 1rem;
+}
+body {
+  font-family: sans-serif;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+button#submit {
+  background-color: rgb(51, 123, 51);
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: 1px solid rgb(61, 25, 25);
+  padding: 2rem;
+  /* display: none; */
+}
+
+.grid {
+  border: 1px solid rgb(61, 25, 25);
+  /* display: grid; */
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  display: none;
+}
+.item {
+  background-color: rgb(249, 255, 168);
+  border: 1px solid black;
+  color: rgb(174, 155, 111);
+  font-size: 80px;
+  text-align: center;
+  cursor: pointer;
+}
